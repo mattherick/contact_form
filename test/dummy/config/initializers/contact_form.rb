@@ -1,0 +1,1 @@
+CONTACT_FORM_CONFIG = YAML.load_file("#{Rails.root}/config/contact_form.yml")

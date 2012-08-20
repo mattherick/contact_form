@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <p><%= I18n.t(".contact_form.views.form_mailer.new_contact.headline") %></p>
+    
+    <p>
+      <%= I18n.t(".contact_form.models.form.attributes.name") %>: <%= @form.name %><br/>
+      <%= I18n.t(".contact_form.models.form.attributes.email") %>: <%= @form.email %><br/>
+      <%= I18n.t(".contact_form.models.form.attributes.message") %>: <%= @form.message %>
+    </p>
+
+  </body>
+</html>

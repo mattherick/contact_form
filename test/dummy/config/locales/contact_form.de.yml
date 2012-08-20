@@ -1,0 +1,24 @@
+de:
+  contact_form:
+    models:
+      form:
+        attributes:
+          name: "Name"
+          email: "Email"
+          message: "Nachricht"
+    mailers:
+      form_mailer:
+        auto_reply_subject: "YOUR-DOMAIN - Danke für Ihre Anfrage"
+        new_contact_subject: "YOUR-DOMAIN: neue Kontaktanfrage"
+    views:
+      forms:
+        new:
+          send: "Absenden"
+      form_mailer:
+        new_contact:
+          headline: "YOUR-DOMAIN: neue Kontaktanfrage eingetroffen:"
+        auto_reply:
+          text_html: "<p>Danke für Ihre Anfrage auf unserer Homepage.</p>"
+    controllers:
+      forms_controller:
+        success: "Danke für Ihre Anfrage"

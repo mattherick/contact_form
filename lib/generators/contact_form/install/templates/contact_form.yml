@@ -1,0 +1,3 @@
+form_mailer:
+  default_from: "your-mail@example.com"
+  new_contact_to: "your-mail@example.com"

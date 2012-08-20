@@ -15,7 +15,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "contact_form"
   
   s.add_dependency "rails", "~> 3.2.8"
-  # s.add_dependency "jquery-rails"
+  s.add_dependency "jquery-rails"
+  s.add_dependency "i18n"
+  s.add_dependency "mail"
   s.add_development_dependency "sqlite3"
 
   s.files = `git ls-files`.split("\n")
