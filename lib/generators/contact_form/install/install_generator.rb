@@ -1,5 +1,3 @@
-require 'rails/generators/migration'
-
 module ContactForm
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
