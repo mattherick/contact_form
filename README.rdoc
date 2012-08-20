@@ -12,7 +12,7 @@ Or add it to your Gemfile:
 
 Run the generator to generate an initializer file, a config yml file and locale files
 
-  rails g contact_form
+  rails g contact_form:install
 
 You can easily customize all files. The generated file under "/config" contains the mailer recipients, you can change them the way you want. The generated files under "/config/locales" contains i18n keys which can also be changed.
 
@@ -30,14 +30,14 @@ and you'll see the result!
 
 There are following generators available for customizing your contact form:
 
-  rails g contact_form:views 					# generates view files
-  rails g contact_form:models 				# generates model files
-  rails g contact_form:controllers 		# generates controller files
-  rails g contact_form:mailers				# generates mailer files
+  rails g contact_form:views          # generates view files
+  rails g contact_form:models         # generates model files
+  rails g contact_form:controllers    # generates controller files
+  rails g contact_form:mailers        # generates mailer files
 
 Or simple generate all files
 
-  rails g contact_form:all 						# generates all files
+  rails g contact_form:all            # generates all files
 
 
 Copyright (c) 2012 Matthias Frick, released under the MIT license
