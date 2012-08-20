@@ -22,3 +22,6 @@ en:
     controllers:
       forms_controller:
         success: "Thank you for your interest."
+    validators:
+      email_validator:
+        error_message: "is invalid"

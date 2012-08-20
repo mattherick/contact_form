@@ -1,6 +1,7 @@
 === ContactForm
 
 This gem contains a little contact form. It is build with a mountable engine.
+It is simple and just sends two emails. Nothing gets saved to the database. The first email is to the website administrator and the second email is an auto reply to the user.
 
 === Quick Start
 
@@ -18,13 +19,13 @@ You can easily customize all files. The generated file under "/config" contains 
 
 After you run the generator you can mount the engine in your routes.rb
 
-  mount ContactForm::Engine => "/contact_form"
+  mount ContactForm::Engine => "/contact_form", :as => :contact_form
 
 Visit
 
-  localhost:3000/contact_form
+  http://localhost:3000/contact_form
 
-and you'll see the result!
+and you'll see the result! You can override this route in your route file.
 
 === Generators
 

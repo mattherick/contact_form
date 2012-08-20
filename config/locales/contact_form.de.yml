@@ -22,3 +22,6 @@ de:
     controllers:
       forms_controller:
         success: "Danke für Ihre Anfrage"
+    validators:
+      email_validator:
+        error_message: "ist ungültig"
