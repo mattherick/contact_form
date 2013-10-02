@@ -8,7 +8,7 @@ module ContactForm
     def create
       @form = Form.new(params[:form])
       if @form.valid?
-    	 FormMailer.new_contact(@form).deliver
+    	  FormMailer.new_contact(@form).deliver
         FormMailer.auto_reply(@form).deliver
         redirect_to after_create_contact_path, notice: I18n.t(".contact_form.controllers.forms_controller.success")
       else
