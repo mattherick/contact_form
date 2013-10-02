@@ -3,13 +3,29 @@
 This gem contains a little contact form. It is build with a mountable engine.
 It is simple and just sends two emails. Nothing gets saved to the database. The first email is to the website administrator and the second email is an auto reply to the user.
 
+This gem is compatible with rails 4.0.0 and rails 3.2. For rails 3.2 you must use the version 0.0.2, or the branch "rails_32".
+
 === Quick Start
+
+rails 4.0.0:
 
   gem install contact_form
 
 Or add it to your Gemfile:
 
   gem "contact_form"
+  
+rails 3.2:
+
+  gem install contact_form -v 0.0.2
+  
+Or add it to your Gemfile:
+
+  gem "contact_form", "0.0.2"
+  
+or directly from the rails 3.2 branch from github:
+
+  gem "contact_form", :git => "https://github.com/mattherick/contact_form.git", :branch => "rails_32"
 
 Run the generator to generate an initializer file, a config yml file and locale files
 
