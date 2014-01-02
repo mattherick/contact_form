@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/mattherick/contact_form"
   s.description = "A simple contact form for a contact page."
   s.summary = "contact_form-#{s.version}"
+  s.licenses = ['MIT']
   s.rubyforge_project = "contact_form"
   
   s.add_dependency "rails", "~> 4.0.0"
