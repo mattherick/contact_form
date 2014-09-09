@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.licenses = ['MIT']
   s.rubyforge_project = "contact_form"
   
-  s.add_dependency "rails", "~> 4.0.0"
+  s.add_dependency "rails", "~> 4.1.0"
   s.add_dependency "jquery-rails"
   s.add_dependency "i18n"
   s.add_dependency "mail"
